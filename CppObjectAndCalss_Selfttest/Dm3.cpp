@@ -49,14 +49,14 @@
 //// 用来显示golf的内容的函数
 //void showgolf(const golf& g);
 
-
+//home_version test
 
 
 #include "iostream"
 #include "Dm3.h"
 using namespace std;
 
-int main()
+int main3()
 {
 	
 	
