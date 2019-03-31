@@ -54,12 +54,12 @@
 
 #include "iostream"
 #include "Dm3.h"
+#define _CRT_SECURE_NO_WARNINGS
+
 using namespace std;
 
 int main3()
 {
-	
-	
 	cout<<"\nHallo..."<<endl;
 	return 0;
 }
@@ -68,7 +68,7 @@ Golf::Golf(const char* name, int hc)
 {
 	if (strlen(name)<Len)
 	{
-		strcpy(m_fullname, name);
+		//strcpy(m_fullname, name);
 	}
 	else
 	{
@@ -80,7 +80,7 @@ int Golf::setgolf(const char* name, int hc)
 {
 	if (strlen(name) < Len)
 	{
-		strcpy(m_fullname, name);
+		//strcpy(m_fullname, name);
 		return 0;
 	}
 	else

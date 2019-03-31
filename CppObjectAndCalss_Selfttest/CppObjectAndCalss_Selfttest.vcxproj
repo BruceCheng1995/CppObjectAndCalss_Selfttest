@@ -22,10 +22,12 @@
     <ClCompile Include="Dm1.cpp" />
     <ClCompile Include="Dm2.cpp" />
     <ClCompile Include="Dm3.cpp" />
+    <ClCompile Include="Dm4.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Dm2.h" />
     <ClInclude Include="Dm3.h" />
+    <ClInclude Include="Dm4.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

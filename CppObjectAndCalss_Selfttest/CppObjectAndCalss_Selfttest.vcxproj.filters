@@ -24,12 +24,18 @@
     <ClCompile Include="Dm3.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Dm4.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Dm2.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="Dm3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Dm4.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

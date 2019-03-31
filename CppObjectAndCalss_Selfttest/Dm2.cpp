@@ -29,7 +29,7 @@ void Person::FormalShow() const
 
 
 
-int main()
+int main2()
 {
 	Person one;							// use default constructor
 	Person two("Smythecraft");			// use #2 with one default argument

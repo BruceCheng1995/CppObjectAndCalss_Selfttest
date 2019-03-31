@@ -1,10 +1,8 @@
 #pragma once
-
+#define _CRT_SECURE_NO_WARNINGS
 class Golf
 {
 public:
-	Golf();
-	~Golf();
 	Golf(const char* name, int hc);
 	// 函数从用户请求name和handicap，并将g的成员设置为输入的值，
 	// 如果输入name则返回1，如果name为空字符串则返回0
