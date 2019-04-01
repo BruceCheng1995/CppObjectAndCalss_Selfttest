@@ -27,6 +27,24 @@
     <ClCompile Include="Dm4.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Dm5.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Dm5_Use.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Dm6.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Dm6_Use.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Dm7.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Dm7_Use.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Dm2.h">
@@ -36,6 +54,18 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="Dm4.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Dm5.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Dm6.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Dm7.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="List.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

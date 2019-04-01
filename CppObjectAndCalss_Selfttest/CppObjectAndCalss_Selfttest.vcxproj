@@ -23,11 +23,21 @@
     <ClCompile Include="Dm2.cpp" />
     <ClCompile Include="Dm3.cpp" />
     <ClCompile Include="Dm4.cpp" />
+    <ClCompile Include="Dm5.cpp" />
+    <ClCompile Include="Dm5_Use.cpp" />
+    <ClCompile Include="Dm6.cpp" />
+    <ClCompile Include="Dm6_Use.cpp" />
+    <ClCompile Include="Dm7.cpp" />
+    <ClCompile Include="Dm7_Use.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Dm2.h" />
     <ClInclude Include="Dm3.h" />
     <ClInclude Include="Dm4.h" />
+    <ClInclude Include="Dm5.h" />
+    <ClInclude Include="Dm6.h" />
+    <ClInclude Include="Dm7.h" />
+    <ClInclude Include="List.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
