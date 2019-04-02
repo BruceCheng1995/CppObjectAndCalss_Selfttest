@@ -29,6 +29,8 @@
     <ClCompile Include="Dm6_Use.cpp" />
     <ClCompile Include="Dm7.cpp" />
     <ClCompile Include="Dm7_Use.cpp" />
+    <ClCompile Include="List.cpp" />
+    <ClCompile Include="List_Use.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Dm2.h" />

@@ -45,6 +45,12 @@
     <ClCompile Include="Dm7_Use.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="List.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="List_Use.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Dm2.h">

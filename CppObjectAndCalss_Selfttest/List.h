@@ -3,8 +3,8 @@
 //·可存储0或多个某种类型的列表
 //·可创建空列表
 //·可在列表中添加数据项
-//·可确定列表是否为空
-//·可确定列表是否为满
+//·可在列表中添加数据项
+//·可在列表中添加数据项
 //·可访问列表中的每一个数据项，并对它执行某种操作
 //可以看到，这个列表确实很简单，例如，它不允许插入或删除数据项
 //请设计一个List类来表示这种抽象类型。您应提供头文件list.h和实现文件list.cpp，
@@ -23,26 +23,27 @@
 
 typedef struct
 {
-
-	char* name;
+	const char* name;
 	double price;
 	double num;
 }Item;
 
-class List
+void showItem(Item& it);
+
+class List 
 {
 public:
 	List();
-	~List();
+	//~List();
 	void addData(const Item& it);
 	bool isEmpty()const;
 	bool isFull()const;
 	void visit(void (*pf)(Item&));
 	void Insert(const Item&,int index);
-	void delet(Item&);
+	void delet(int index);
 private:
 	static const int MAX = 20;
-	int m_payment[MAX];
+	Item m_payment[MAX];
 	int m_top;
 };
 
